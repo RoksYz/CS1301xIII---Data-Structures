@@ -2,8 +2,8 @@ def phonebook(names,numbers):
     dic = {}
     count=0
     for item in names:
-            dic[item]=numbers[count]
-            count+=1
+        dic[item]=numbers[count]
+        count+=1
 
     return dic
 #print (although the order of the keys may vary):
